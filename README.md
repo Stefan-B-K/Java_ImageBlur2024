@@ -1,5 +1,5 @@
 # ImageBlur2024
-# (Project 1/3 of Methodia Workshope/Self-training 2024)
+# (Project 1/3 of Methodia Workshop/Self-training 2024)
 
 ## Задача 1
 
