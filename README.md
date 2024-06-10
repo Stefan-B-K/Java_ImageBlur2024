@@ -28,6 +28,10 @@ https://docs.gimp.org/2.10/en/gimp-filter-median-blur.html
 Развийте конзолния интерфейс, така че да може да се изреждат филтрите и техните параметри като аргументи на програмата.
 Примерни аргументи:
 imagepath averagebrightnessblur 3 colorfilter red crop 10 15 100 110
+````diff
++ Drop-down list (for filter constructors) and parameters pane 
++ generated with Reflection API:
+````
 ![](https://github.com/Stefan-B-K/Java_ImageBlur2024/blob/main/src/main/resources/images/Screenshot3.png)
 
 Което може да означава - приложи замъгляване чрез осредняване на яркостта в радиус 3, приложи червен филтър, тоест само R компонентата да остане, изрежи изображението, формирайки правоъгълник 100x110 от позиция x:10 y:15
