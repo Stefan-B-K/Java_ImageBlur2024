@@ -32,4 +32,5 @@ imagepath averagebrightnessblur 3 colorfilter red crop 10 15 100 110
 Което може да означава - приложи замъгляване чрез осредняване на яркостта в радиус 3, приложи червен филтър, тоест само R компонентата да остане, изрежи изображението, формирайки правоъгълник 100x110 от позиция x:10 y:15
 
 ## Задача 5
-Възможност пътят до изображението да е зададен чрез HTTP URL. 
+Възможност пътят до изображението да е зададен чрез HTTP URL.
+![](https://github.com/KameliaNikolova/ImageBlur2024/blob/StefanBK/src/main/resources/images/Screenshot3.png)
