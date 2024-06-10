@@ -33,4 +33,7 @@ imagepath averagebrightnessblur 3 colorfilter red crop 10 15 100 110
 
 ## Задача 5
 Възможност пътят до изображението да е зададен чрез HTTP URL.
+````diff
++ Final version, working both as Swing and CLI app. 
+````
 ![](https://github.com/KameliaNikolova/ImageBlur2024/blob/StefanBK/src/main/resources/images/Screenshot3.png)
