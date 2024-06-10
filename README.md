@@ -8,6 +8,7 @@
 https://docs.gimp.org/2.10/en/gimp-filter-median-blur.html
 
 ````diff
++ ============================ SOLUTION =========================== 
 + Swing App using the solution types ImgReader, ImgFilter and ImgWriter
 ````
 ![](https://github.com/Stefan-B-K/Java_ImageBlur2024/blob/main/src/main/resources/images/Screenshot1.png)
@@ -16,6 +17,7 @@ https://docs.gimp.org/2.10/en/gimp-filter-median-blur.html
 Добавяне на нов тип филтър, който да замъглява по средната стойност на яркостта на всеки пиксел в определен радиус.
 
 ````diff
++ ============================ SOLUTION =========================== 
 + Extracting the image pixels parsing and kernel values generation in an 
 + abstract class FilterSquareKernel and subclassing with the new FilterMeanAlpha:
 ````
@@ -28,7 +30,9 @@ https://docs.gimp.org/2.10/en/gimp-filter-median-blur.html
 Развийте конзолния интерфейс, така че да може да се изреждат филтрите и техните параметри като аргументи на програмата.
 Примерни аргументи:
 imagepath averagebrightnessblur 3 colorfilter red crop 10 15 100 110
+
 ````diff
++ ========================= SOLUTION ======================== 
 + Drop-down list (for filter constructors) and parameters pane 
 + generated with Reflection API:
 ````
@@ -38,7 +42,9 @@ imagepath averagebrightnessblur 3 colorfilter red crop 10 15 100 110
 
 ## Задача 5
 Възможност пътят до изображението да е зададен чрез HTTP URL.
+
 ````diff
++ =================== SOLUTION ===================
 + Final version, working both as Swing and CLI app. 
 ````
 ![](https://github.com/Stefan-B-K/Java_ImageBlur2024/blob/main/src/main/resources/images/Screenshot4.png)
