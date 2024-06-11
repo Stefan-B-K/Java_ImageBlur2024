@@ -1,4 +1,4 @@
-# ImageBlur2024 (Project 1/3 of Methodia Workshop / Self-training 2024)
+# ImageBlur2024 (Project 1/3 of Methodia 2024 Java 11 Workshop/Self-training)
 
 ## Задача 1
 
