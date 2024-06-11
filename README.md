@@ -45,5 +45,7 @@ imagepath averagebrightnessblur 3 colorfilter red crop 10 15 100 110
 ````diff
 + =================== SOLUTION ===================
 + Final version, working both as Swing and CLI app. 
++ Besides choosing from local file and URL, the user
++ can Google search for an image using 'serpapi.com'. 
 ````
 ![](https://github.com/Stefan-B-K/Java_ImageBlur2024/blob/main/src/main/resources/images/Screenshot4.png)
